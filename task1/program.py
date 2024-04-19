@@ -40,11 +40,11 @@ contours = contours[2:18]
 
 cv.drawContours(image_copy, contours, -1, (0, 255, 0), 2)
 
-number_of_egdes = len(contours)
+no_of_edges = len(contours)
 
 colorBounds = np.array([], dtype=np.uint8)
 
-while i < number_of_egdes:
+while i < no_of_edges:
 
     print("Wire " + str(j+1), end=" ")
 
